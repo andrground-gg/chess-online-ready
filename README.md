@@ -1,7 +1,7 @@
 # chess-online-ready
-Repository created to be deployed on Heroku.
-https://chess-online-site.herokuapp.com/
+### Repository created to be deployed on <b>Heroku</b>.<br>
+https://chess-online-site.herokuapp.com/<br><br>
 
-Full code:
-Client: https://github.com/andrground-gg/chess-online-client-vue
-Server: https://github.com/andrground-gg/chess-online-server-nest
+### Full code:<br>
+Client: https://github.com/andrground-gg/chess-online-client-vue<br>
+Server: https://github.com/andrground-gg/chess-online-server-nest<br>
