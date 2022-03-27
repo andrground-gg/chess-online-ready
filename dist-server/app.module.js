@@ -30,7 +30,7 @@ AppModule = __decorate([
             users_module_1.UsersModule,
             games_module_1.GamesModule,
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: (0, path_1.join)(__dirname, '..', '..', 'chess-site-frontend/dist')
+                rootPath: (0, path_1.join)(__dirname, '..', '/dist-client')
             })
         ],
         controllers: [app_controller_1.AppController],
