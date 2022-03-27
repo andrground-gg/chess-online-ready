@@ -6,7 +6,6 @@ const session = require("express-session");
 const passport = require("passport");
 const cookieParser = require("cookie-parser");
 const MongoStore = require('connect-mongo');
-const PORT = process.env.PORT || 8000;
 async function bootstrap() {
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
     app.use(session({
@@ -21,7 +20,7 @@ async function bootstrap() {
     app.use(cookieParser());
     app.use(passport.initialize());
     app.use(passport.session());
-    await app.listen(PORT);
+    await app.listen(8000);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
